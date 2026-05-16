@@ -85,10 +85,11 @@ The training notebook (`SDET102_final_project.ipynb`) contains:
 The final trained model is saved as `best.pt`.
 
 **Limitations / Special Notes**
-- The model is trained on **three specific objects** only: keys, remote, wallet.  
+- The model is trained on three specific objects only: keys, remote, wallet.  
 - Detection accuracy depends on lighting and camera quality.  
-- The system speaks only the **highest‑confidence object** per frame.  
+- The system speaks only the highest‑confidence object per frame.  
 - Background clutter or overlapping objects may reduce accuracy.  
 - The webcam must be connected and accessible for the script to run.  
 - The text‑to‑speech engine may behave differently on macOS vs Windows.
+- The system detects objects in order, meaning it will not repeat the same object unless you show a different object first.
   
