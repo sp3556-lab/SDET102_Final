@@ -44,7 +44,7 @@ It includes images, labels, and the `data.yaml` file required for YOLO training.
    - The webcam will open  
    - When an object is detected, a bounding box appears  
    - The system speaks the object name aloud
-   - Press Q to quit
+   - Just exit the terminal to quit
 
 **Required Libraries**
 The project uses the following Python libraries:
